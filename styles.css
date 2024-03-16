@@ -7,7 +7,7 @@ header {
     background-image: url("pictures/woodworking.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 105%;
+    width: 100%;
     min-height: 600px
 }
 
@@ -17,7 +17,8 @@ footer {
 }
 
 .blue-background {
-    background-color: rgba(48, 48, 108, 0.984);
+    background-color: cadetblue;
+    ?
 }
 
 .centered {
@@ -35,6 +36,11 @@ footer {
 
 .font-family {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#home {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -63,5 +69,17 @@ main {
 .body-picture {
     background-image: url("Pictures/0004-Mily-Airbnb-Experiences12032019.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: space-evenly;
+    background-position: center;
+
+
+}
+
+.gallery {
+    align-items: center;
+    color: #823d0c;
+    display: block;
+    justify-content: space-evenly;
+    image-rendering: crisp-edges;
+    src: "Pictures\0004-Mily-Airbnb-Experiences12032019.jpg" >
 }
